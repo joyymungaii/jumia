@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.zero {
+  width: 100%;
+  background-color: #623187;
+  height: 8vh;
+}
+.one {
+  width: 100%;
+  height: 5vh;
+  background-color: #f1f1f2;
+  display: flex;
+  align-items: center;
+  padding-left: 110px;
+}
+
+.one a {
+  color: #f68b1e;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.one a:hover {
+  text-decoration: underline;
+}
+.one p {
+  padding-left: 550px;
+  font-weight: bold;
+}
+.two {
+  background-color: #b91d1d;
+  display: flex;
+  height: 12vh;
+  width: 100%;
+  align-items: center;
+}
+.jersey {
+  display: flex;
+  align-items: center;
+  padding-left: 110px;
+}
+.jersey p {
+  font-size: 40px;
+  font-weight: bold;
+}
+.search {
+  display: flex;
+  align-items: center;
+  padding-left: 120px;
+}
+.search input {
+  width: 650px;
+  height: 46px;
+  outline: none;
+  border: 0.7px solid #0000005d;
+  border-radius: 5px;
+}
+.search button {
+  width: 100px;
+  height: 47px;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #f68b1e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.account {
+  display: flex;
+  gap: 30px;
+}
+.account a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 22px;
+}
+.account a:hover {
+  color: #f68b1e;
+}
+.main {
+  background-color: #f1f1f2;
+  width: 100%;
+  
+}
+.main p {
+  padding-left: 150px;
+  padding-top: 15px;
+}
+.whole{
+  width: 80vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+}
+.orange {
+  margin-top: 20px;
+  padding-left: 10px;
+  font-size: 18px;
+  width: 100%;
+  height: 7vh;
+  background-color: #f68b1e;
+  display: flex;
+  align-items: center;
+}
+.content {
+  padding-left: 20px;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+}
+.content a {
+  border-radius: 0.2cm;
+  width: 220px;
+  height: 380px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: #000;
+  transition: transform s;
+}
+.content a:hover{
+  transform: scale(1.1);
+}
+.content a:hover button{
+  display: block;
+}
+.bla .text h6 {
+  padding-top: 5px;
+  font-weight: lighter;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%; /* add this to make the ellipsis work */
+}
+.bla .text h4 {
+  padding-top: 5px;
+  font-weight: 600;
+}
+.bla .text h5 {
+  padding-top: 5px;
+  text-decoration: line-through;
+}
+.bla img {
+  width: 200px;
+  height: 250px;
+  padding-top: 10px;
+}
+.bla button{
+  margin-top: 10px;
+  background-color: #f68b1e;
+  border: none;
+  border-radius: 5px;
+  width: 180px;
+  height: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  display: none;
+  cursor: pointer;
+}
